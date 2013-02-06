@@ -1,0 +1,9 @@
+#appname:MobileAppCatalog
+#appid:com.csc.mobileappcatalog
+#type:mobile
+#guid:c735cc53-eb55-4cdb-b4af-82ab72fd4702
+#version:1.0
+#publisher:Paul
+#url:http://www.csc.com
+#image:appicon.png
+#desc:Mobile app that will display all of the mobile apps and content that has been created by the CSC mobile team.  App allows the ability to upload content directly.

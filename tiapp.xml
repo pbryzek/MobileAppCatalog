@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="acs-oauth-secret-production" type="string">WQY3VFnuYQ5ckSCWlp4WiCER08SjbN0I</property>
+    <property name="acs-oauth-key-production" type="string">0JILTOIBVgDN1VVRLCmH5cmnl2y84niO</property>
+    <property name="acs-api-key-production" type="string">LWCtqRlbmBciJwcj1OwvC6ZQ5XOUtU48</property>
+    <property name="acs-oauth-secret-development" type="string">p7GlPZ0CnEICN6uvZXrbeuX5A46hTvBt</property>
+    <property name="acs-oauth-key-development" type="string">obsNngrZb9ajXTRwyUFTdFRvIDLHWg33</property>
+    <property name="acs-api-key-development" type="string">3AjhZIbVGIOgE9qd44TGRPIaeCka4CiM</property>
+    <id>com.csc.mobileappcatalog</id>
+    <name>MobileAppCatalog</name>
+    <version>1.0</version>
+    <publisher>Paul</publisher>
+    <url>http://www.csc.com</url>
+    <description>Mobile app that will display all of the mobile apps and content that has been created by the CSC mobile team.  App allows the ability to upload content directly.</description>
+    <copyright>2013 by Paul</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>false</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>c735cc53-eb55-4cdb-b4af-82ab72fd4702</guid>
+    <property name="ti.ui.defaultunit" type="string">system</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="blackberry">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">true</target>
+    </deployment-targets>
+    <sdk-version>3.0.0.GA</sdk-version>
+</ti:app>
